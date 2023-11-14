@@ -1,0 +1,19 @@
+
+
+
+// import CSS from "csstype";
+// import "./carousel.scss";
+// const carouselWrapper: CSS.Properties = {
+//   border: "1px solid red",
+//   height: "600px",
+//   maxWidth: "1200px",
+// };
+
+
+.carousel-wrapper { 
+   height:600px;
+   max-width: 1200px;
+   @media only screen and (max-width: 600px) {
+    height:400px;
+  }
+}
