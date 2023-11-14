@@ -4,7 +4,7 @@ import "./carousel.scss";
 
 const CarouselComponent = () => {
   return (
-    <div className="carousel-wrapper container mx-auto relative z-10">
+    <div className="carousel-wrapper relative z-10">
       <Carousel
         className="w-full h-full"
         autoplay={true}
